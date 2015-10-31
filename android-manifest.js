@@ -1,3 +1,6 @@
+---
+---
+
 {
   "name": "One Passwords Web App",
   "icons": [
