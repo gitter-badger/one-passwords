@@ -1,14 +1,11 @@
 
 function getPassword(passphrase, serviceName) {
 
-  document.getElementById('password').value = "Computing your password"
-
   // Highest prime number available in the Bitcoin blockchain to use as the modulo
   primeBlock = 381323;
 
   // No (security) need to ake the user remember case sensitive service name
   serviceName = serviceName.toLowerCase();
-//  sha256 = require('js-sha256');
 
   // Blockchain's Block which its hash is the target password
   passwordBlock = parseInt('0x' + sha256(passphrase + serviceName)) % primeBlock;
