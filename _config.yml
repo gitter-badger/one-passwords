@@ -1,0 +1,67 @@
+
+# Site settings
+
+url: "https://panossakkos.github.io"
+baseurl: "one-passwords"
+google-tracking-id: ""
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+author: "Panos Sakkos"
+lang: "en"
+title: "One Passwords"
+favicon: "/img/favicon.ico"
+description: ""
+keywords: ""
+
+##################
+# Contact layout #
+##################
+
+email: "panoss@microsoft.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "github"
+    url: "https://github.com/PanosSakkos"
+  - title: "linkedin"
+    url: "https://no.linkedin.com/in/PanosSakkos"
+  - title: "twitter"
+    url: "https://twitter.com/thepanoss"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# Tread carefully if you want to change the variables bellow this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  App: 'app'
+  Contact: 'contact'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
