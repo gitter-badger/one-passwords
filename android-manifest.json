@@ -42,5 +42,5 @@
     }
   ],
   "start_url": "{{site.baseurl}}/index.html",
-  "display": "standalone",
+  "display": "standalone"
 }
