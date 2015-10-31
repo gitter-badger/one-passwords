@@ -1,4 +1,4 @@
-# one-passwords
+# One Passwords
 
 ## About
 One Passwords is a password manager which doesn't store any passwords. 
