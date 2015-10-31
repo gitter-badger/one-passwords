@@ -29,13 +29,7 @@ email: "panoss@microsoft.com"
 
 social:
   - title: "github"
-    url: "https://github.com/PanosSakkos"
-  - title: "linkedin"
-    url: "https://no.linkedin.com/in/PanosSakkos"
-  - title: "twitter"
-    url: "https://twitter.com/thepanoss"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/PanosSakkos/one-passwords"
 
 ############
 # 404 page #
