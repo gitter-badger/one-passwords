@@ -3,9 +3,6 @@ function getPassword(passphrase, serviceName) {
 
   document.getElementById('password').value = "Computing your password"
 
-  console.log('Passphrase: ' + passphrase);
-  console.log('Service: ' + serviceName);
-
   // Highest prime number available in the Bitcoin blockchain to use as the modulo
   primeBlock = 381323;
 
@@ -19,7 +16,6 @@ function getPassword(passphrase, serviceName) {
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
       block = JSON.parse(xhttp.responseText);
-      console.log('Block hash: ' + block.data.blockhash);
         document.getElementById('password').value = block.data.blockhash;
     }
   }
