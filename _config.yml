@@ -2,7 +2,7 @@
 # Site settings
 
 url: "https://panossakkos.github.io"
-baseurl: "one-passwords"
+baseurl: "/one-passwords"
 google-tracking-id: ""
 force-https: True
 
