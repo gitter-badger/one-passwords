@@ -1,6 +1,8 @@
 
 function getPassword(passphrase, serviceName) {
 
+  document.getElementById('password').value = "Computing your password"
+
   console.log('Passphrase: ' + passphrase);
   console.log('Service: ' + serviceName);
 
