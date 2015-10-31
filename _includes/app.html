@@ -10,21 +10,21 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         {{ page.content | markdownify }}
-        <form role="form">
+        <form role="form" onkeydown="if (event.keyCode == 13) document.getElementById('submitBtn').click()">
           <div class="form-group">
             <label for="passphrase"><h5><strong>Your passphrase:</strong></h5></label>
-            <input type="password" class="form-control" id="passphrase">
+            <input id="passphrase" type="password" class="form-control">
           </div>
           <div class="form-group">
             <label for="serviceName"><h5><strong>Target service to get password of:</strong></h5></label>
-            <input type="text" class="form-control" id="serviceName">
+            <input id="serviceName" type="text" class="form-control">
           </div>
           <div class="form-group">
             <label for="serviceName"><h5><strong>Your password:</strong></h5></label>
-            <input type="text" class="form-control" id="password" value="">
+            <input id="password" type="text" class="form-control" value="">
           </div>
           <div class="form-group">
-            <button type="button" class="btn btn-primary" onclick="getPassword(document.getElementById('passphrase').value, document.getElementById('serviceName').value)">Get password</button>
+            <button id="submitBtn" type="button" class="btn btn-primary" onclick="getPassword(document.getElementById('passphrase').value, document.getElementById('serviceName').value)">Get password</button>
           </div>
         </form>
       </div>
