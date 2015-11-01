@@ -1,10 +1,12 @@
 # One Passwords
 
 ## About
+
 One Passwords is an experimental proof of [concept](https://panossakkos.github.io/tech/2015/11/01/one-passwords.html)
 and shouldn't be used or relied upon.
 
 ## License
+
 MIT
 
 ## Supporting the repo
