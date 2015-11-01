@@ -6,8 +6,6 @@ and shouldn't be used or relied upon it.
 It tries to make the handling of passwords easier and safe at the same time.
 Select one secret passphrase and then use it in combination with the service name that you want to generate a password for.
 
-## [Web App](https://panossakkos.github.io/one-passwords)
-
 ## License
 MIT
 
