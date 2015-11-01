@@ -3,8 +3,6 @@
 ## About
 One Passwords is an experimental proof of [concept](https://panossakkos.github.io/tech/2015/11/01/one-passwords.html)
 and shouldn't be used or relied upon it.
-It tries to make the handling of passwords easier and safe at the same time.
-Select one secret passphrase and then use it in combination with the service name that you want to generate a password for.
 
 ## License
 MIT
