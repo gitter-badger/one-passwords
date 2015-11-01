@@ -48,7 +48,6 @@ social:
 pages_list:
   About: 'about'
   App: 'app'
-  Contact: 'contact'
 
 # Enable minification SASS
 sass:
