@@ -3,7 +3,7 @@
 
 url: "https://panossakkos.github.io"
 baseurl: "/one-passwords"
-google-tracking-id: ""
+google-tracking-id: "UA-35880426-5"
 force-https: True
 
 #############
