@@ -1,10 +1,10 @@
 # One Passwords
 
 ## About
-One Passwords is a password manager which doesn't store any passwords. 
-The passwords are hashes of blocks in the Bitcoin's Blockchain.
-The corresponsing block to assign as a password is computed by the 
-user's secret passphrase and the service name that he wants to get the password for.
+One Passwords is an experimental proof of [concept](https://panossakkos.github.io/tech/2015/11/01/one-passwords.html)
+and shouldn't be used or relied upon it.
+It tries to make the handling of passwords easier and safe at the same time.
+Select one secret passphrase and then use it in combination with the service name that you want to generate a password for.
 
 ## [Web App](https://panossakkos.github.io/one-passwords)
 
