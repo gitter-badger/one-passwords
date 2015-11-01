@@ -13,7 +13,7 @@ function getBlockchainPassword(passphrase, serviceName) {
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
       var block = JSON.parse(xhttp.responseText);
-        document.getElementById('password').value = sha256(block.data.blockhash);
+      document.getElementById('password').value = sha256(block.data.blockhash);
     }
   }
 
