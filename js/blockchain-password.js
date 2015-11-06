@@ -8,12 +8,12 @@ function getBlockchainPassword(passphrase, serviceName) {
   var block = parseInt('0x' + sha256(passphrase + serviceName)) % primeBlock;
 
   var xhttp = new XMLHttpRequest();
-  var url = 'https://bitcoin.toshi.io/api/v0/blocks/' + block;
+  var url = 'https://chain.so/api/v2/get_blockhash/BTC/' + block;
 
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
       var block = JSON.parse(xhttp.responseText);
-      document.getElementById('password').value = sha256(block.data.blockhash);
+      document.getElementById('password').value = block.data.blockhash;
     }
   }
 
