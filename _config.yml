@@ -18,18 +18,14 @@ description: "One Passwords makes password management easy and secure at the sam
 keywords: "One passwords, password manager, security, cypherpunk, bitcoin, blockchain, Panos Sakkos"
 
 ##################
-# Contact layout #
-##################
-
-email: "panoss@microsoft.com"
-
-##################
 # Social Buttons #
 ##################
 
 social:
   - title: "github"
     url: "https://github.com/PanosSakkos/one-passwords"
+  - title: "bitcoin"
+    url: "https://blockchain.info/address/12iX3g7RbqZHxfLn7sX19AnUKHpukW2eP8"
 
 ############
 # 404 page #
