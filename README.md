@@ -11,4 +11,4 @@ MIT
 
 ## Supporting the repo
 
-In case you want to support the development, feel free to send a few bits here 1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi
+You can support the repo by sending Bitcoins to 12iX3g7RbqZHxfLn7sX19AnUKHpukW2eP8
